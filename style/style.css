@@ -1,21 +1,101 @@
+/* color */
+    /* backgroudcolor rgba(229, 229, 229, 1) */
+    /* second_backgroudcolor rgba(245, 244, 250, 1) */
+    /* front_text_color rgba(33, 33, 33, 1) *
+    /* second_text_color rgba(117, 117, 117, 1) */
+    /* hover_text_color rgba(33, 150, 243, 1) */
+    /* adress_mailphone_color rgba(255, 255, 255, 0.6) */
+    /* footer_color: rgba(0, 0, 0, 1) */
+:root {
+--backgroud_color_var: rgba(245, 244, 250, 1);
+--second_backgroud_color: rgba(229, 229, 229, 1);
+--primary_text_color: rgba(33, 33, 33, 1);
+--second_text_color: rgba(117, 117, 117, 1);
+--white_color_text: rgba(255, 255, 255, 1);
+--hover_text_color: rgba(33, 150, 243, 1);
+--footer_color: rgba(0, 0, 0, 1);
+--border_image: rgba(47, 48, 58, 1);
+--mailphone_footer : rgba(255, 255, 255, 0.6);
+}
 .page {
-    background-color: #FFFFFF;
+   background-color: var(--backgroud_color_var);
 }
 .myteam {
-    background-color: #F5F4FA;
+    background-color: var(--second_backgroud_color);
 }
 
 ul {
     list-style: none;
 }
 /* head */
-.headup_hover a:hover,
-.headup_hover a:focus {
-  color:rgb(33, 150, 243);
+.headup_hover :hover,
+.headup_hover :focus {
+    color: var(--hover_text_color)
 }
 .headup_hover a {
-    color: rgb(33, 33, 33);
+   color: var(--primary_text_color);
 }
 .section_title {
-    color: black;
+    color: var(--primary_text_color);
+}
+.mailphone a{
+    color: var(--second_text_color);
+}
+.mailphone :hover,
+.mailphone :focus {
+       color: var(--hover_text_color);
+}
+.mailphone a {
+    
+}
+
+/* big_image */
+.big_image {
+    background-color: var(--border_image);
+}
+.big_image_text {
+color: var(--white_color_text)
+    
+}
+.button{
+    background-color: var(--hover_text_color);
+    color: var(--white_color_text);
+
+}
+button :hover { 
+    background-color: var(--white_color_text);
+}
+    
+/* feature */
+.feature_paragraf {
+    color: var(--second_text_color);
+    color: #7777
+}
+/* чем мы занимаемся */
+
+/* наша команда */
+
+.myteam_paragraf {
+    color: var(--second_text_color);
+}
+/* footer */
+
+.footer {
+    background-color: var(--footer_color);
+}
+.name_logo_web {
+    color: var(--hover_text_color);
+}
+.name_logo_studio {
+    color: var(--white_color_text);
+
+}
+.name_logo_studio_black {
+    color: var(--primary_text_color);
+}
+.street_city {
+    color: var(--white_color_text);
+}
+.footer_mailphone a{
+    color: var(--mailphone_footer);
 }
