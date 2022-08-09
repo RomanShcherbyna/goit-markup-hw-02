@@ -1,0 +1,21 @@
+.page {
+    background-color: #FFFFFF;
+}
+.myteam {
+    background-color: #F5F4FA;
+}
+
+ul {
+    list-style: none;
+}
+/* head */
+.headup_hover a:hover,
+.headup_hover a:focus {
+  color:rgb(33, 150, 243);
+}
+.headup_hover a {
+    color: rgb(33, 33, 33);
+}
+.section_title {
+    color: black;
+}
