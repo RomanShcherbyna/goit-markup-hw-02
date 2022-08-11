@@ -51,6 +51,9 @@ ul {
     line-height: 1.16;
     text-align: center;
 }
+.hide {
+    font-size: 0
+}
 /* head */
 .logo {
     font-family: 'Raleway',, 'cursive'
