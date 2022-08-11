@@ -26,7 +26,7 @@ body {
    letter-spacing: 0.03em
 }
 
-}
+
 .myteam {
     background-color: var(--second_backgroud_color);
 }
@@ -82,6 +82,7 @@ ul {
 .mailphone :focus {
        color: var(--hover_text_color);
        letter-spacing: 0.02em
+       
 }
 .phone {
   
