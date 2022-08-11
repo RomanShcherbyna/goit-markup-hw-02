@@ -23,7 +23,10 @@
 body {
    background-color: var(--backgroud_color_var);
    font-family: 'Roboto', sans-serif;
-   letter-spacing: 0.03em
+   font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+   letter-spacing: 0.03em;
 }
 
 
@@ -37,7 +40,6 @@ body {
     text-align: center;
 }
 .myteam p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -121,7 +123,8 @@ button :hover {
     background-color: var(--white_color_text);
 }
 button {
-    font-family: inherit
+    font-family: inherit;
+    cursor: pointer
 }
     
 /* feature */
@@ -137,8 +140,6 @@ button {
     text-transform: uppercase;
 }
 .feature_sect p {
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1,71;
 }
@@ -168,7 +169,6 @@ button {
 }
 .street_city {
     color: var(--white_color_text);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1,71;
 }
@@ -181,7 +181,6 @@ button {
 .name_logo_studio_footer {
     color: var(--white_color_text);
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
 
 }
@@ -212,7 +211,6 @@ color: white;
     color: var(--primary_text_color);
 }
 .our_work p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 2;
     letter-spacing: 0.03em;
