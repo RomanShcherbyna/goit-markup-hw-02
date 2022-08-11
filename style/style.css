@@ -156,11 +156,19 @@ button {
 
 .footer {
     background-color: var(--footer_color);
+
+}
+.footer a,
+.footer p {
+    font-family: 'Roboto';
+    font-style: normal;
+    cursor: default;
 }
 .name_logo_web {
     color: var(--hover_text_color);
     font-family: 'Raleway', 'cursive';
     font-weight: 700;
+   
 }
 
 .name_logo_studio {
