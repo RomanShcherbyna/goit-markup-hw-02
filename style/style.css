@@ -23,12 +23,15 @@
 body {
    background-color: var(--backgroud_color_var);
    font-family: 'Roboto', sans-serif;
-   font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
+   font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
    letter-spacing: 0.03em;
+   text-decoration: none;
 }
-
+body a {
+    text-decoration: none;
+}
 
 .myteam {
     background-color: var(--second_backgroud_color);
@@ -58,12 +61,12 @@ ul {
 }
 /* head */
 .logo {
-    font-family: 'Raleway',, 'cursive'
+    font-family: 'Raleway', 'cursive';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
 }
-.headup_hover :hover,:focus {
+.headup_hover a:hover,:focus {
     color: var(--hover_text_color)
 }
 .headup_hover a {
@@ -83,14 +86,10 @@ ul {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     letter-spacing: 0.02em
 }
-.mailphone :hover,
-.mailphone :focus {
+.mailphone a:hover,:focus {
        color: var(--hover_text_color);
        letter-spacing: 0.02em
        
-}
-.phone {
-  
 }
 
 /* big_image */
@@ -101,25 +100,30 @@ ul {
 color: var(--white_color_text);
 font-weight: 900;
 font-size: 44px;
-line-height: 1,36;
+line-height: 1.36;
 text-align: center;
 text-transform: uppercase;
 letter-spacing: 0.06em
 
 
 }
-.button_hero{
+.button_hero:hover,:focus{
+    background-color: rgb(0, 140, 255);
+    color: var(--white_color_text);
+    
+}
+.button_hero {
     background-color: var(--hover_text_color);
     color: var(--white_color_text);
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 2;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
 }
-button :hover { 
+button:hover,:focus{ 
     background-color: var(--white_color_text);
 }
 button {
@@ -130,7 +134,6 @@ button {
 /* feature */
 .feature_paragraf {
     color: var(--second_text_color);
-    color: #7777
 }
 /* чем мы занимаемся */
 .feature_sect h3 {
@@ -141,7 +144,7 @@ button {
 }
 .feature_sect p {
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
 }
 
 /* наша команда */
@@ -150,7 +153,6 @@ button {
 }
 .card_photo {
     background-color: var(--white_color_text);
-    width: 270px;
 }
 /* footer */
 
@@ -178,12 +180,12 @@ button {
 .street_city {
     color: var(--white_color_text);
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
 }
 .footer_mailphone a{
     color: var(--mailphone_footer);
 }
-.footer_mailphone a:hover {
+.footer_mailphone a:hover,:focus {
     color: var(--hover_text_color);
 }
 .name_logo_studio_footer {
@@ -206,7 +208,7 @@ color: white;
     color: black;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,6;
+    line-height: 1.6;
     text-align: center;
 }
 /* Наши работы */
