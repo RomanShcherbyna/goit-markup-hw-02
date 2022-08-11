@@ -198,9 +198,10 @@ button {
 .portfolio_page {
     
 }
-.buttonhover:hover,:focus
+.buttonhoverul li .buttonhover:hover
 {
-color: var(--hover_text_color);
+color: var(--white_color_text);
+background-color: var(--hover_text_color);
 }
 .buttonhover {
     background-color: var(--backgroud_color_var);
