@@ -17,36 +17,74 @@
 --border_image: rgba(47, 48, 58, 1);
 --mailphone_footer : rgba(255, 255, 255, 0.6);
 }
-.page {
+.headup .linkcurrent {
+    color: var(--hover_text_color);
+}
+body {
    background-color: var(--backgroud_color_var);
+   font-family: 'Roboto', sans-serif;
+   letter-spacing: 0.03em
+}
+
 }
 .myteam {
     background-color: var(--second_backgroud_color);
 }
-
+.myteam h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+.myteam p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
 ul {
     list-style: none;
 }
+.section_title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
 /* head */
-.headup_hover :hover,
-.headup_hover :focus {
+.logo {
+    font-family: 'Raleway',, 'cursive'
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
+}
+.headup_hover :hover,:focus {
     color: var(--hover_text_color)
 }
 .headup_hover a {
    color: var(--primary_text_color);
+   letter-spacing: 0.02em
+}
+.headup_hover {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;  
 }
 .section_title {
     color: var(--primary_text_color);
 }
 .mailphone a{
     color: var(--second_text_color);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    letter-spacing: 0.02em
 }
 .mailphone :hover,
 .mailphone :focus {
        color: var(--hover_text_color);
+       letter-spacing: 0.02em
 }
-.mailphone a {
-    
+.phone {
+  
 }
 
 /* big_image */
@@ -54,16 +92,32 @@ ul {
     background-color: var(--border_image);
 }
 .big_image_text {
-color: var(--white_color_text)
-    
+color: var(--white_color_text);
+font-weight: 900;
+font-size: 44px;
+line-height: 1,36;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 0.06em
+
+
 }
-.button{
+.button_hero{
     background-color: var(--hover_text_color);
     color: var(--white_color_text);
-
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 button :hover { 
     background-color: var(--white_color_text);
+}
+button {
+    font-family: inherit
 }
     
 /* feature */
@@ -72,11 +126,26 @@ button :hover {
     color: #7777
 }
 /* чем мы занимаемся */
+.feature_sect h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.feature_sect p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+}
 
 /* наша команда */
-
 .myteam_paragraf {
     color: var(--second_text_color);
+}
+.card_photo {
+    background-color: var(--white_color_text);
+    width: 270px;
 }
 /* footer */
 
@@ -85,17 +154,63 @@ button :hover {
 }
 .name_logo_web {
     color: var(--hover_text_color);
+    font-family: 'Raleway', 'cursive';
+    font-weight: 700;
 }
-.name_logo_studio {
-    color: var(--white_color_text);
 
-}
-.name_logo_studio_black {
+.name_logo_studio {
     color: var(--primary_text_color);
+    font-weight: 700;
 }
 .street_city {
     color: var(--white_color_text);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
 }
 .footer_mailphone a{
     color: var(--mailphone_footer);
+}
+.footer_mailphone a:hover {
+    color: var(--hover_text_color);
+}
+.name_logo_studio_footer {
+    color: var(--white_color_text);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+
+}
+/* portfolio page */
+.portfolio_page {
+    
+}
+.buttonhover:hover,:focus
+{
+background-color: var(--hover_text_color);
+color: white;
+}
+.buttonhover {
+    background-color: var(--backgroud_color_var);
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,6;
+    text-align: center;
+}
+/* Наши работы */
+
+.our_work h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary_text_color);
+}
+.our_work p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.03em;
+    color: var(--second_text_color);
 }
